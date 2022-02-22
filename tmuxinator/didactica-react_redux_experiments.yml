@@ -1,0 +1,8 @@
+name: didactica-react_redux_experiments
+root: /home/git/didactica/didactica-react_redux_experiments
+
+windows:
+  - general: >
+      sleep 0.2 ;
+      clear ;
+      echo Do stuff

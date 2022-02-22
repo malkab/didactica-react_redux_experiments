@@ -1,0 +1,1 @@
+Put here any object that has to do with logic. Don't get obsessed about API logic classes and props. Store props defining interfaces in the **props** folder. API classes may generate props if needed, but don't get mad about 1:1 relationship between components and API classes.
