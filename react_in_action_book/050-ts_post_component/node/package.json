@@ -1,0 +1,60 @@
+{
+  "name": "node",
+  "version": "0.0.1",
+  "private": true,
+  "description": "REWRITE-ME",
+  "scope": "SCOPE-ME",
+  "author": {
+    "name": "MY-NAME",
+    "email": "MY-EMAIL@EMAIL.COM",
+    "url": "HTTP://MY-URL"
+  },
+  "keywords": [
+    "PUT-NEW-KEYWORDS-HERE",
+    "ANOTHER-ONE-HERE"
+  ],
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/malkab/code-samples.git"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.7.13",
+    "@types/react": "^17.0.20",
+    "@types/react-dom": "^17.0.9",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "5.0.0",
+    "typescript": "^4.4.2",
+    "web-vitals": "^2.1.0"
+  },
+  "scripts": {
+    "start": "export PORT=3000 ; react-scripts start",
+    "build": "export PORT=3000 ; react-scripts build",
+    "test": "export PORT=3000 ; react-scripts test",
+    "eject": "export PORT=3000 ; react-scripts eject",
+    "serve": "serve -p 3000 --cors --single --debug --no-clipboard build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
